@@ -32,9 +32,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlR-yb-SXr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OlR-yb-SXr">
                                 <rect key="frame" x="135" y="393" width="106" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Stop Recording"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iOI-NO-xzR"/>
@@ -44,8 +43,10 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oKs-4g-FHf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1sL-UO-zAe"/>
+                            <constraint firstItem="OlR-yb-SXr" firstAttribute="centerX" secondItem="pBo-qr-hfz" secondAttribute="centerX" id="G10-47-Bk2"/>
                             <constraint firstItem="oKs-4g-FHf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K9y-H5-BQ5"/>
                             <constraint firstItem="pBo-qr-hfz" firstAttribute="top" secondItem="oKs-4g-FHf" secondAttribute="bottom" constant="15.5" id="L3o-Xb-8yH"/>
+                            <constraint firstItem="OlR-yb-SXr" firstAttribute="top" secondItem="pBo-qr-hfz" secondAttribute="bottom" constant="8" id="Xei-C8-BKk"/>
                             <constraint firstItem="pBo-qr-hfz" firstAttribute="centerX" secondItem="oKs-4g-FHf" secondAttribute="centerX" id="w8s-Xk-MGD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
